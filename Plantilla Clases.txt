@@ -1,0 +1,18 @@
+using System;
+					
+public class Program{
+	class Persona {
+		private int edad;
+		
+		public void method(){
+		Console.WriteLine("Hola soy un metodo");
+		}
+	}
+	
+	
+	public static void Main()
+	{
+		Persona persona = new Persona();
+		persona.method();
+	}
+}
