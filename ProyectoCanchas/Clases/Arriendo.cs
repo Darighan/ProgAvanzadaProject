@@ -1,18 +1,23 @@
-using system;
-
-public class Arriendo
+﻿namespace ProyectoProgramacionAvanzada.Models.Clases
 {
-    private int idArriendo, precioArriendo; //, idArrendatario;  lo separe porque esto llegaria por una fk
-    private Estado estadoArriendo; //,nombreArrendatario; aqui tambien seria una fk
-
-    private DateTime fechaInicioArriendo, fechaFinArriendo; 
-
-    private Cancha cancha;
-    
-    public void datosArriendo()
+    public class Arriendo
     {
+        private int idArriendo;
+        private DateTime fechaInicioArriendo, fechaFinArriendo;
+        private string estadoArriendo;
 
+        public void generarArriendo()
+        {
+
+        }
+
+        public void cancelarArriendo()
+        {
+
+        }
+        public void borrarArriendo()
+        {
+
+        }
     }
-
-
 }

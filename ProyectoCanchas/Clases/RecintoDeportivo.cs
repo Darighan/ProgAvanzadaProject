@@ -1,9 +1,16 @@
-using System;
-
-public class RecintoDeportivo
+﻿namespace ProyectoProgramacionAvanzada.Models.Clases
 {
-    private string nombreRecinto, direccionRecinto;
-    private int telefonoRecinto;
+    public class RecintoDeportivo
+    {
+        private string nombreRecinto, direccionRecinto, emailRecinto;
+        private int idRecinto, telefonoRecinto; 
 
+        public void modificarDatosRecinto()
+        {
 
+        }
+
+        
+
+    }
 }

@@ -1,45 +1,57 @@
-using System;
+﻿namespace ProyectoProgramacionAvanzada.Models.Clases
+{
+    public class Usuario
+    {
+        private int idUsuario, telefonoUsuario;
+        private string nombreUsuario, ApellidoUsuario, emailUsuario, rolUsuario;
+        private DateTime fechaNacimientoUsuario;
 
-public class Usuario{
-    private int idUsuario, telefonoUsuario;
-	private string nombreUsuario, apellidoUsuario, emailUsuario;
-	private DateTime fechaNacimientoUsuario;
-		
-		public void verificarLogin(){
-					
-		}
-		public void registrarse(){
-		
-		}
-		public void actualizarDatos(){
-		
-		}
-		public void solicitarArriendo(){
-			
-		}
-		public void historialArriendo(){
-		
-		}
+        public void verificarLogin()
+        {
 
-    class Secretario : Usuario{
+        }
 
-        public void revisarArriendo(){
-		
-		}
-		
-		public void modificarArriendo(){
-		
-		}
-	
+        public void registrarUsuario()
+        {
+
+        }
+
+        public void actualizarDatos()
+        {
+
+        }
+
+        public void solicitarArriendo()
+        {
+
+        }
+
+        public void historialArriendo()
+        {
+
+        }
+
+        class Secretario : Usuario
+        {
+            public void revisarArriendo()
+            {
+
+            }
+
+            public void modificarArriendo()
+            {
+
+            }
+
+        }
+
+        class Dueño : Secretario
+        {
+            public void auditarUsuario()
+            {
+
+            }
+        }
+
     }
-
-    class Dueño : Secretario{
-
-        
-			public void auditarUsuario(){
-			
-			}
-    }
-
-
 }

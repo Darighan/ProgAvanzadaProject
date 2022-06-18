@@ -1,29 +1,30 @@
-using system;
-public class Cancha
+﻿namespace ProyectoProgramacionAvanzada.Models.Clases
 {
-    private string tipodeCancha, estadoCancha;
-    private int idCancha, dimensionesCancha, cantJugadores;
-
-    public void agregarCancha()
+    public class Cancha
     {
+        private string tipodeCancha, estadoCancha;
+        private int idCancha, dimensionesCancha, cantJugadores;
+
+
+        public void agregarCancha()
+        {
+
+        }
+
+        public void eliminarCancha()
+        {
+
+        }
+
+        public void actualizarEstado()
+        {
+
+        }
+
+        public void actualizarDatos()
+        {
+
+        }
 
     }
-
-    public void eliminarCancha()
-    {
-
-    }
-
-    public void actualizarestado()
-    {
-
-    }
-
-    public void actualizarDatos()
-    {
-
-
-    }
-
-
 }
