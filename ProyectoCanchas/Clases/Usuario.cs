@@ -3,7 +3,7 @@ using System;
 public class Usuario{
     private int idUsuario, telefonoUsuario;
 	private string nombreUsuario, apellidoUsuario, emailUsuario;
-	//date fechaNacimientoUsuario;
+	private DateTime fechaNacimientoUsuario;
 		
 		public void verificarLogin(){
 					
